@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Happy Birthday Anshika</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <style>
+        body{
+    background-color:#59253A;
+}
+                .flip-card {
+                    margin-top:30px;
+                    margin-left:40%;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #78244C;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+        
+        </style>
+
+        <body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="./assets/logo.png" style="width:130px;height:65px"></img></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color:white">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="./index.php" style="color:white">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./birthday.php" style="color:white">Greetings</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./wishes.php" style="color:white">Wishes</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
+
+        <h1 class="display-1" style="color:white;margin-left:35%">Excited Huh!</h1>
+        <h4 style="color:white;margin-left:25%">Just take a guess whose wishes are written on a card, then turn them to find out!!</h4>
+        
+        <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <h1>Happy Birthday</h1>
+            <p>Apun ko KFC mein party mangta</p>
+            <p>Stay blessed and bhakli!</p>
+            
+        </div>
+        <div class="flip-card-back">
+        <img src="./assets/WhatsApp Image 2020-05-11 at 3.22.25 PM.jpeg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        </div>
+        </div> 
+        <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <h1>Happy Birthday</h1>
+            <p>Not related by blood,
+But related by heart ❣️
+Sister from another mother.
+My constant secret keeper, my personal advisor. 
+Happy birthday Anshika🌸
+More than a friend you're part of my family!😌💖💖</p>
+            
+        </div>
+        <div class="flip-card-back">
+        <img src="./assets/WhatsApp Image 2020-05-07 at 6.54.56 PM.jpeg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        </div>
+        </div> 
+        <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <h1>Happy Birthday</h1>
+            <p>Companion to me.. else uh know well❤️😇</p>
+            
+        </div>
+        <div class="flip-card-back">
+        <p>Aayush ❤️</p>
+        </div>
+        </div>
+        </div> 
+        <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <h1>Happy Birthday</h1>
+            <p>Sweet, charming and loving soul🥰 Keep spreading your convivial and cheerful presence wherever you go💖 Stay blessed, dearie😇</p>
+            
+        </div>
+        
+        <div class="flip-card-back">
+        <img src="./assets/sakshi.jpeg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        </div>
+        </div> 
+        <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <h1>Happy Birthday</h1>
+            <p>May God bless you with health, strength and determination 💖</p>
+            
+        </div>
+        <div class="flip-card-back">
+        <img src="./assets/swapnil.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        </div>
+        </div> 
+
+        <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <h1>Happy Birthday</h1>
+            <p>Happy Birthday Anshika🥳🥳.Always keep smiling❤️</p>
+            
+        </div>
+        <div class="flip-card-back">
+        <img src="./assets/christi.jpeg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        </div>
+        </div> 
+        <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <h1>Happy Birthday</h1>
+            <p>We've been friends for over 11 years and I'm so thankful for everything we've been able to experience together.On your natal day, I tried to look for the right words to say. But I can only think of one word, amazing. Happy birthday to you, my amazing friend!</p>
+            
+        </div>
+        <div class="flip-card-back">
+        <img src="./assets/navya.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        </div>
+        </div> 
+            
+        </body>
+        </html>
